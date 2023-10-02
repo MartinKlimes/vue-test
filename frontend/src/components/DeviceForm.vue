@@ -154,7 +154,7 @@ function cancelForm() {
 
     <div class="form-actions-wrapper">
       <button type="button" class="btn" @click="cancelForm">Cancel</button>
-      <button type="submit" @click="submitForm" class="btn btn-primary">
+      <button type="submit" @click.prevent="submitForm" class="btn btn-primary">
         Create
       </button>
     </div>

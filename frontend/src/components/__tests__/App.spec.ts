@@ -2,7 +2,6 @@ import { describe, it, expect } from "vitest";
 import { mount } from "@vue/test-utils";
 
 import App from "../../App.vue";
-import { s } from "vitest/dist/reporters-5f784f42.js";
 
 describe("App.vue", () => {
   it('displays the modal and form when "Add" button is clicked', async () => {
